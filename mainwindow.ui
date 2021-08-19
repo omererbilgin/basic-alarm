@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>407</width>
+    <height>119</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(36, 31, 49);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="dot1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>7</width>
+      <height>7</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>7</width>
+      <height>7</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(61, 56, 70);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dot2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>50</y>
+      <width>7</width>
+      <height>7</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>7</width>
+      <height>7</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(61, 56, 70);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dot3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>50</y>
+      <width>7</width>
+      <height>7</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>7</width>
+      <height>7</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(61, 56, 70);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dot4">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>7</width>
+      <height>7</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>7</width>
+      <height>7</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(61, 56, 70);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="go">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>41</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>38</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 109, 56);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="settings">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>20</y>
+      <width>41</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>38</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(154, 153, 150);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>20</y>
+      <width>41</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>38</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(146, 20, 20);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="Line" name="lineH">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>401</width>
+      <height>5</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>5</height>
+     </size>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="lineV1">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>0</y>
+      <width>3</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>3</width>
+      <height>64</height>
+     </size>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="lineV2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>0</y>
+      <width>3</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>3</width>
+      <height>64</height>
+     </size>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="time1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>41</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>41</width>
+      <height>38</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(61, 56, 70);
+color: rgb(255, 255, 255);
+font:  75 18pt &quot;Cantarell&quot;;</string>
+    </property>
+    <property name="text">
+     <string>00</string>
+    </property>
+    <property name="maxLength">
+     <number>8</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="time2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>41</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>41</width>
+      <height>38</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(61, 56, 70);
+color: rgb(255, 255, 255);
+font:  75 18pt &quot;Cantarell&quot;;</string>
+    </property>
+    <property name="text">
+     <string>00</string>
+    </property>
+    <property name="maxLength">
+     <number>3</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="time3">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>20</y>
+      <width>41</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>41</width>
+      <height>38</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(61, 56, 70);
+color: rgb(255, 255, 255);
+font:  75 18pt &quot;Cantarell&quot;;</string>
+    </property>
+    <property name="text">
+     <string>00</string>
+    </property>
+    <property name="maxLength">
+     <number>3</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="pathe">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>291</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(222, 221, 218);</string>
+    </property>
+    <property name="text">
+     <string>/Custom/Alarm/Path</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="browse">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>80</y>
+      <width>91</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(222, 221, 218);</string>
+    </property>
+    <property name="text">
+     <string>Browse</string>
+    </property>
+   </widget>
+   <zorder>dot1</zorder>
+   <zorder>dot2</zorder>
+   <zorder>dot3</zorder>
+   <zorder>dot4</zorder>
+   <zorder>go</zorder>
+   <zorder>settings</zorder>
+   <zorder>stop</zorder>
+   <zorder>lineV1</zorder>
+   <zorder>lineV2</zorder>
+   <zorder>lineH</zorder>
+   <zorder>time1</zorder>
+   <zorder>time2</zorder>
+   <zorder>time3</zorder>
+   <zorder>pathe</zorder>
+   <zorder>browse</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
